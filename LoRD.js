@@ -1086,10 +1086,7 @@ break
                     {buttonId: `gimage ${text}`, buttonText: {displayText: '𝑵𝒆𝒙𝒕⏭️'}, type: 1}
                 ]
                 let buttonMessage = {
-                    image: { url: images },
-                    caption: `*-------「 IMAGE SEARCH 」-------*
-🤠 *𝑸𝒖𝒆𝒓𝒚* : ${text}
-🔗 *𝑴𝒆𝒅𝒊𝒂 𝑼𝒓𝒍* : ${images}`,
+                    image: { url: images }`,
                     footer: hisoka.user.name,
                     buttons: buttons,
                     headerType: 4
